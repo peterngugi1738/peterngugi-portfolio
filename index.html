@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<script>document.documentElement.classList.add('js')</script>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#081426">
+<title>Peter Ngugi | IT Support & Systems Specialist</title>
+<meta name="description" content="Peter Ngugi is an IT support and systems specialist based in Nairobi, Kenya, with experience in airport IT operations, Linux administration, networking and technical support.">
+<meta property="og:title" content="Peter Ngugi | IT Support & Systems Specialist">
+<meta property="og:description" content="IT support, systems administration, Linux and networking. Nairobi, Kenya · Open to remote and on-site opportunities.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop stop-color='%2358a6ff'/%3E%3Cstop offset='1' stop-color='%2356e0d2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-family='Arial' font-weight='800' font-size='13' fill='%23071426'%3EPN%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#071426;--panel:#0d1e35;--panel2:#102640;--text:#f2f7ff;--muted:#a9bad0;--line:rgba(176,205,239,.14);--blue:#58a6ff;--cyan:#56e0d2;--lime:#c2f970;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.7 Manrope,system-ui,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 12% 8%,rgba(49,129,221,.18),transparent 34%),radial-gradient(ellipse at 92% 28%,rgba(54,207,196,.10),transparent 30%),linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:auto,auto,42px 42px,42px 42px}
+a{color:inherit;text-decoration:none}button,a{ -webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:3px solid var(--cyan);outline-offset:4px}
+.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(7,20,38,.82);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:-.04em}
+.brand-mark{width:36px;height:36px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue),var(--cyan));color:#071426;font-size:15px;font-weight:800}
+.navlinks{display:flex;gap:25px;align-items:center;color:var(--muted);font-size:13px;font-weight:700}
+.navlinks a:hover{color:var(--cyan)}
+.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:10px;padding:12px 18px;font-weight:800;font-size:13px;transition:.2s ease}
+.nav-cta,.btn.primary{background:linear-gradient(110deg,var(--blue),var(--cyan));color:#061426;box-shadow:0 8px 28px rgba(70,170,255,.18)}
+.nav-cta:hover,.btn:hover{transform:translateY(-2px)}
+.hero{padding:100px 0 78px;display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:55px;min-height:620px}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(86,224,210,.25);background:rgba(86,224,210,.07);color:var(--cyan);border-radius:30px;padding:7px 12px;font:500 11px "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+.pulse{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 5px rgba(194,249,112,.1)}
+h1,h2,h3,p{margin-top:0}h1{font-size:clamp(44px,6.3vw,78px);line-height:1.02;letter-spacing:-.065em;margin:24px 0 18px;font-weight:800}
+.gradient{background:linear-gradient(100deg,#fff 10%,#80bfff 55%,#62e4d5);-webkit-background-clip:text;background-clip:text;color:transparent}
+.role{font-size:clamp(18px,2vw,23px);font-weight:700;color:#c4d8ef;margin-bottom:18px}
+.intro{max-width:620px;color:var(--muted);font-size:16px;line-height:1.85}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:29px 0 30px}
+.btn.secondary{border:1px solid rgba(183,210,240,.25);color:var(--text);background:rgba(255,255,255,.025)}
+.quick{display:flex;flex-wrap:wrap;gap:10px 20px;color:var(--muted);font-size:12px}
+.quick span{display:flex;align-items:center;gap:7px}.quick b{color:#eaf4ff;font-weight:700}
+.hero-art{position:relative;min-height:420px;display:grid;place-items:center}
+.orbit{position:absolute;width:min(410px,100%);aspect-ratio:1;border:1px solid rgba(88,166,255,.22);border-radius:50%;box-shadow:0 0 90px rgba(54,145,255,.08),inset 0 0 60px rgba(54,145,255,.05)}
+.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid rgba(86,224,210,.16);border-radius:50%;inset:32px}
+.orbit:after{inset:70px;border-style:dashed}
+.core{position:relative;width:210px;height:210px;border-radius:34px;background:linear-gradient(145deg,#163b61,#0b1b31);border:1px solid rgba(125,195,255,.35);box-shadow:0 25px 80px rgba(0,0,0,.35);display:grid;place-items:center;transform:rotate(-7deg)}
+.core svg{width:116px;height:116px;transform:rotate(7deg)}
+.float-card{position:absolute;background:rgba(13,30,53,.94);border:1px solid rgba(176,205,239,.2);border-radius:13px;padding:12px 15px;box-shadow:0 15px 35px rgba(0,0,0,.25);font:11px "DM Mono",monospace;color:#c9dbef}
+.float-card strong{display:block;color:var(--cyan);font-size:12px;margin-bottom:3px}
+.fc1{top:54px;left:0}.fc2{right:-2px;top:120px}.fc3{bottom:45px;left:20px}
+.section{padding:82px 0;border-top:1px solid var(--line)}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:34px}
+.kicker{color:var(--cyan);font:500 11px "DM Mono",monospace;text-transform:uppercase;letter-spacing:.15em;margin-bottom:10px}
+h2{font-size:clamp(30px,4vw,43px);letter-spacing:-.05em;line-height:1.12;margin-bottom:0}
+.section-note{max-width:420px;color:var(--muted);font-size:13px;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}
+.stat{padding:22px;background:linear-gradient(145deg,rgba(18,43,70,.85),rgba(10,27,47,.8));border:1px solid var(--line);border-radius:15px}
+.stat strong{display:block;font-size:31px;letter-spacing:-.05em;color:var(--cyan);line-height:1.2}
+.stat span{display:block;color:var(--muted);font-size:11px;margin-top:7px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.card{background:linear-gradient(145deg,rgba(16,38,64,.92),rgba(10,27,47,.9));border:1px solid var(--line);border-radius:16px;padding:24px;transition:.22s}
+.card:hover{transform:translateY(-4px);border-color:rgba(88,166,255,.45)}
+.iconbox{width:43px;height:43px;border-radius:12px;display:grid;place-items:center;background:rgba(88,166,255,.12);color:var(--cyan);margin-bottom:18px}
+.iconbox svg{width:22px;height:22px}
+.card h3{font-size:17px;letter-spacing:-.03em;margin-bottom:9px}
+.card p{font-size:13px;color:var(--muted);margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tag{font:10px "DM Mono",monospace;color:#c7d9ed;border:1px solid var(--line);border-radius:6px;padding:5px 8px}
+.timeline{display:grid;gap:13px}
+.job{display:grid;grid-template-columns:175px 1fr;gap:25px;padding:23px 25px;border:1px solid var(--line);background:rgba(13,30,53,.72);border-radius:15px}
+.date{font:11px "DM Mono",monospace;color:var(--cyan);padding-top:5px}
+.job h3{font-size:17px;margin-bottom:4px}
+.company{color:#c5d8ee;font-size:12px;font-weight:700;margin-bottom:12px}
+.job ul{margin:0;padding-left:18px;color:var(--muted);font-size:13px}
+.job li{margin:5px 0}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.skill-list{display:grid;gap:15px}
+.skill-row{display:grid;grid-template-columns:145px 1fr;gap:15px;align-items:center}
+.skill-row b{font-size:12px}
+.track{height:7px;border-radius:20px;background:rgba(255,255,255,.08);overflow:hidden}
+.track i{display:block;height:100%;border-radius:20px;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.skill-caption{font-size:10px;color:var(--muted);margin-top:4px}
+.cert-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.cert{border:1px solid var(--line);background:rgba(13,30,53,.72);border-radius:12px;padding:14px}
+.cert b{font-size:12px;display:block}.cert span{font-size:10px;color:var(--muted)}
+.edu{display:flex;justify-content:space-between;gap:25px;align-items:center;padding:24px;border:1px solid var(--line);border-radius:15px;background:rgba(13,30,53,.7)}
+.edu h3{margin:0 0 5px;font-size:17px}.edu p{margin:0;color:var(--muted);font-size:12px}
+.edu-year{font:11px "DM Mono",monospace;color:var(--cyan);white-space:nowrap}
+.contact{padding:65px 0 72px;background:linear-gradient(115deg,rgba(31,91,151,.28),rgba(13,50,73,.24));border-top:1px solid var(--line);text-align:center}
+.contact h2{max-width:700px;margin:0 auto 14px}.contact p{color:var(--muted);font-size:14px;max-width:570px;margin:0 auto 25px}
+.contact .actions{justify-content:center}
+footer{padding:22px 0;color:#8297b2;font-size:11px;border-top:1px solid var(--line)}
+.footer-in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.orbit:after{animation:spin 40s linear infinite}
+.float-card{animation:bob 6s ease-in-out infinite}.fc2{animation-delay:-2s}.fc3{animation-delay:-4s}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes bob{50%{transform:translateY(-8px)}}
+.hero>div:first-child>*{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+.hero>div:first-child>*:nth-child(2){animation-delay:.08s}.hero>div:first-child>*:nth-child(3){animation-delay:.16s}.hero>div:first-child>*:nth-child(4){animation-delay:.24s}.hero>div:first-child>*:nth-child(5){animation-delay:.32s}.hero>div:first-child>*:nth-child(6){animation-delay:.4s}
+.hero-art{animation:rise 1s .2s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.js .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}.js .reveal.in{opacity:1;transform:none}
+.track i{transform-origin:left;transform:scaleX(0);transition:transform 1.2s cubic-bezier(.2,.8,.2,1) .2s}.in .track i,html:not(.js) .track i{transform:scaleX(1)}
+.job{transition:.22s}.job:hover{border-color:rgba(88,166,255,.4);transform:translateX(4px)}
+.cert{transition:.2s}.cert:hover{border-color:rgba(86,224,210,.35)}
+.navlinks a{transition:color .2s}
+@media(max-width:850px){.hero{grid-template-columns:1fr;gap:20px;padding-top:75px}.hero-art{min-height:340px}.orbit{width:330px}.core{width:170px;height:170px}.core svg{width:95px}.grid3{grid-template-columns:1fr 1fr}.section-head{display:block}.section-note{margin-top:13px}.stats{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.wrap{width:min(100% - 30px,var(--max))}.nav{height:65px}.navlinks{display:none}.hero{padding:62px 0 50px;min-height:0}h1{font-size:48px}.hero-art{min-height:300px}.orbit{width:285px}.core{width:145px;height:145px}.fc1{left:-3px;top:28px}.fc2{right:-3px;top:90px}.fc3{bottom:25px;left:0}.section{padding:60px 0}.grid3,.split{grid-template-columns:1fr}.stats{gap:8px}.stat{padding:16px}.stat strong{font-size:26px}.job{grid-template-columns:1fr;gap:5px;padding:19px}.skill-row{grid-template-columns:115px 1fr}.cert-list{grid-template-columns:1fr}.edu{align-items:flex-start;flex-direction:column}.actions .btn{flex:1}.section-head{margin-bottom:25px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.hero>div:first-child>*,.js .reveal{opacity:1;transform:none}.track i{transform:none}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap nav">
+  <a class="brand" href="#top"><span class="brand-mark">PN</span><span>Peter Ngugi<span style="color:var(--cyan)">.</span></span></a>
+  <nav class="navlinks" aria-label="Main navigation"><a href="#capabilities">Capabilities</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+  <a class="nav-cta" href="https://mail.google.com/mail/?view=cm&fs=1&to=peterngugi1738@gmail.com&su=Opportunity%20for%20Peter%20Ngugi" target="_blank" rel="noopener">Contact me ↗</a>
+ </div>
+</header>
+<main id="top">
+<section class="wrap hero">
+ <div>
+  <div class="eyebrow"><span class="pulse"></span> Available for opportunities · Nairobi, Kenya</div>
+  <h1>Peter<br><span class="gradient">Ngugi.</span></h1>
+  <p class="role">IT Support &amp; Systems Specialist</p>
+  <p class="intro">I help keep technology reliable, secure and ready for the people who depend on it. My experience includes supporting live airport IT operations at Jomo Kenyatta International Airport, troubleshooting workstations and networks, and building capability in Linux administration, Bash scripting and cybersecurity.</p>
+  <div class="actions">
+   <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=peterngugi1738@gmail.com&su=IT%20Opportunity%20%E2%80%93%20Peter%20Ngugi" target="_blank" rel="noopener">✉ Email Peter</a>
+   <a class="btn secondary" href="#experience">Explore experience ↓</a>
+  </div>
+  <div class="quick"><span>⌖ <b>Nairobi, Kenya</b></span><span>◉ <b>Remote &amp; on-site</b></span><span>↗ <a href="https://www.linkedin.com/in/peter-ngugi-47b541365" target="_blank" rel="noopener">LinkedIn profile</a></span></div>
+ </div>
+ <div class="hero-art" aria-label="Abstract systems and network illustration">
+  <div class="orbit"></div>
+  <div class="core">
+   <svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><rect x="18" y="24" width="84" height="62" rx="8" stroke="#75C8FF" stroke-width="3"/><path d="M31 43l10 9-10 9M49 62h20" stroke="#56E0D2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M48 96h24M60 86v10" stroke="#75C8FF" stroke-width="3" stroke-linecap="round"/><circle cx="88" cy="36" r="3" fill="#C2F970"/></svg>
+  </div>
+  <div class="float-card fc1"><strong>LINUX / BASH</strong>system administration</div>
+  <div class="float-card fc2"><strong>NETWORKS</strong>troubleshooting · TCP/IP</div>
+  <div class="float-card fc3"><strong>IT OPERATIONS</strong>support · incident handling</div>
+ </div>
+</section>
+
+<section class="wrap" aria-label="Career highlights">
+ <div class="reveal stats">
+  <div class="stat"><strong>24/7</strong><span>Operational environment supported at JKIA</span></div>
+  <div class="stat"><strong>30+</strong><span>Daily technical queries handled in a previous role</span></div>
+  <div class="stat"><strong>50</strong><span>Workstations included in patching and rollout work</span></div>
+  <div class="stat"><strong>10</strong><span>Certifications and training completions stated in portfolio</span></div>
+ </div>
+</section>
+
+<section class="section" id="capabilities">
+ <div class="wrap">
+  <div class="reveal section-head"><div><div class="kicker">What I bring</div><h2>Technology that works.<br>People who feel supported.</h2></div><p class="section-note">A practical blend of frontline IT support, systems knowledge and clear communication—built around dependable service.</p></div>
+  <div class="reveal grid3">
+   <article class="card"><div class="iconbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4M7 9h4m-4 4h8"/></svg></div><h3>IT support &amp; troubleshooting</h3><p>Diagnosing hardware, software and user issues, managing helpdesk requests and escalating incidents according to operational impact.</p><div class="tags"><span class="tag">Windows</span><span class="tag">macOS</span><span class="tag">Ubuntu</span><span class="tag">Remote support</span></div></article>
+   <article class="card"><div class="iconbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="6" rx="2"/><rect x="4" y="15" width="16" height="6" rx="2"/><path d="M8 6h.01M8 18h.01M12 9v6m-3-3h6"/></svg></div><h3>Systems &amp; Linux</h3><p>Working with Linux users, permissions, services, updates and scheduled tasks, with Bash scripting for routine administration.</p><div class="tags"><span class="tag">Linux</span><span class="tag">Bash</span><span class="tag">Cron</span><span class="tag">System services</span></div></article>
+   <article class="card"><div class="iconbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Networking &amp; security</h3><p>Understanding core network services and applying security-aware practices around patching, access control and incident response.</p><div class="tags"><span class="tag">TCP/IP</span><span class="tag">DNS / DHCP</span><span class="tag">VPN</span><span class="tag">Security basics</span></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="experience">
+ <div class="wrap">
+  <div class="reveal section-head"><div><div class="kicker">Career journey</div><h2>Experience in the field.</h2></div><p class="section-note">Hands-on support experience across live operations, customer-facing technical service and office IT environments.</p></div>
+  <div class="reveal timeline">
+   <article class="job"><div class="date">2025 — 2026</div><div><h3>IT Support Technician</h3><div class="company">Jomo Kenyatta International Airport · Nairobi</div><ul><li>Supported airport departments in a 24/7 operational environment, helping minimise system downtime.</li><li>Configured and troubleshot check-in terminals, network equipment and workstations.</li><li>Resolved helpdesk tickets and escalations based on operational impact.</li><li>Maintained configuration records, incident reports and resolution logs.</li></ul></div></article>
+   <article class="job"><div class="date">2024 — 2025</div><div><h3>IT and Customer Service Associate</h3><div class="company">Tech Solutions Hub</div><ul><li>Handled 30+ technical queries daily through phone, email and live chat.</li><li>Deployed and configured servers, workstations and peripherals.</li><li>Maintained IT asset inventory and prepared weekly management status reports.</li><li>Supported junior colleagues with troubleshooting and customer communication.</li></ul></div></article>
+   <article class="job"><div class="date">2024</div><div><h3>IT Intern, Systems and Support</h3><div class="company">Innovate Kenya Ltd</div><ul><li>Assisted with configuring network switches, routers and office access points.</li><li>Supported software rollouts, patch management and antivirus deployment across 50 workstations.</li><li>Prepared procedures and user guides to improve internal knowledge sharing.</li></ul></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="skills">
+ <div class="wrap">
+  <div class="reveal section-head"><div><div class="kicker">Technical toolkit</div><h2>Skills &amp; tools.</h2></div><p class="section-note">Core technologies and tools referenced in my training and professional experience.</p></div>
+  <div class="reveal split">
+   <div class="card"><h3 style="margin-bottom:22px">Core technical areas</h3><div class="skill-list">
+    <div><div class="skill-row"><b>IT support</b><div class="track"><i style="width:88%"></i></div></div><div class="skill-caption">Troubleshooting · helpdesk · escalation</div></div>
+    <div><div class="skill-row"><b>Networking</b><div class="track"><i style="width:76%"></i></div></div><div class="skill-caption">TCP/IP · DNS · DHCP · LAN/WAN · VPN</div></div>
+    <div><div class="skill-row"><b>Linux &amp; Bash</b><div class="track"><i style="width:72%"></i></div></div><div class="skill-caption">Ubuntu · permissions · services · scripting</div></div>
+    <div><div class="skill-row"><b>Cybersecurity</b><div class="track"><i style="width:62%"></i></div></div><div class="skill-caption">Security foundations · patching · access control</div></div>
+   </div><p style="font-size:10px;color:var(--muted);margin:20px 0 0">Visual indicators are illustrative, not formal assessment scores.</p></div>
+   <div class="card"><h3 style="margin-bottom:18px">Platforms &amp; tools</h3><div class="tags">
+    <span class="tag">Windows 7/10/11</span><span class="tag">Ubuntu Linux</span><span class="tag">macOS</span><span class="tag">Microsoft Office</span><span class="tag">Google Workspace</span><span class="tag">TeamViewer</span><span class="tag">AnyDesk</span><span class="tag">RDP</span><span class="tag">Chrome Remote Desktop</span><span class="tag">Slack</span><span class="tag">Zoom</span><span class="tag">Trello</span><span class="tag">Jira</span><span class="tag">PC hardware</span><span class="tag">Routers &amp; switches</span>
+   </div></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="education">
+ <div class="wrap">
+  <div class="reveal section-head"><div><div class="kicker">Learning &amp; development</div><h2>Education &amp; certifications.</h2></div><p class="section-note">A foundation in information technology, complemented by practical technical training.</p></div>
+  <div class="reveal edu"><div><h3>Diploma in Information Technology</h3><p>Rift Valley National Polytechnic · Nakuru, Kenya</p><p>Networking, database systems, hardware and software configuration, systems analysis and IT project management.</p></div><div class="edu-year">2023 — 2026</div></div>
+  <div class="reveal cert-list" style="margin-top:15px">
+   <div class="cert"><b>Linux Administration</b><span>Users, groups, permissions, file systems, services and Ubuntu server maintenance.</span></div>
+   <div class="cert"><b>Shell Scripting in Linux</b><span>Bash scripting, debugging and scheduling tasks with cron.</span></div>
+   <div class="cert"><b>Foundations of Cybersecurity</b><span>CIA triad, NIST frameworks and incident response fundamentals.</span></div>
+   <div class="cert"><b>Apple Device Support</b><span>macOS and iOS setup, troubleshooting and account support.</span></div>
+   <div class="cert"><b>GenAI and Data Analytics</b><span>Generative AI, prompt engineering, data analysis and simple dashboards.</span></div>
+   <div class="cert"><b>Additional training listed</b><span>CompTIA A+ · Google IT Support · Microsoft Azure / Microsoft 365 Fundamentals · ITIL Foundation · Customer Service Excellence</span></div>
+  </div>
+  <div class="tags" style="margin-top:18px"><span class="tag">English — professional working proficiency</span><span class="tag">Swahili — native</span></div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <div class="wrap"><div class="kicker">Let's connect</div><h2>Ready to help your team<br><span class="gradient">keep technology moving.</span></h2><p>I'm open to IT support, systems support, Linux administration and junior security opportunities, both remote and on-site.</p>
+  <div class="actions">
+   <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=peterngugi1738@gmail.com&su=Opportunity%20for%20Peter%20Ngugi" target="_blank" rel="noopener">✉ peterngugi1738@gmail.com</a>
+   <a class="btn secondary" href="tel:+254757475912">☎ +254 757 475 912</a>
+   <a class="btn secondary" href="https://www.linkedin.com/in/peter-ngugi-47b541365" target="_blank" rel="noopener">in LinkedIn</a>
+  </div>
+ </div>
+</section>
+</main>
+<footer><div class="wrap footer-in"><span>© <span id="year">2026</span> Peter Ngugi · Nairobi, Kenya</span><span>Built to keep the focus on people, systems and solutions.</span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+(function(){var els=document.querySelectorAll('.reveal');
+if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+els.forEach(function(e){io.observe(e)})})();
+</script>
+</body>
+</html>
